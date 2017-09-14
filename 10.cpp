@@ -1,14 +1,11 @@
 #include<iostream>
 using namespace std;
 main () {
-char a;
-cout<<"character ";
+float a,b,c;
+cout<<"angle1 ";
 cin>> a;
-if((a>='a'&&a<='z')){
-cout<<"small letter ";
-}else if
-(a>='A'&&a<='Z'){
-cout<<"capital letter ";}
-else{
-cout<<"not alphabet ";}
+cout<<"angle2 ";
+cin>> b;
+c=180-(a+b);
+cout <<"angle3 = "<<c;
 }
