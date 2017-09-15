@@ -2,16 +2,13 @@
 using namespace std;
 int main()
 {
-int y,n,x=0;
+int dig,sum=1,n;
 cout<<"Enter a number";
 cin>>n;
-y=n%10;
-while(n>=10){
+while(n>0){
+dig=n%10;
+sum=sum*dig;
 n=n/10;
-x++;
 }
-int s=n+y;
-cout<<"Sum of first and last digit="<<s;
+cout<<"Product of the digit =" <<sum;
 }
-
-
